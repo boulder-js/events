@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: BoulderJS Community Website
+    url: https://boulderjs.org/
+    about: Everything about Boulders' Finest Developer Communtiy
+  - name: BoulderJS Events
+    url: https://github.com/orgs/boulder-js/projects/1
+    about: Check out our upcoming events
+  - name: Boulder Developer Community Chat
+    url: https://chat.boulderjs.org
+    about: Join the conversation on Discord
