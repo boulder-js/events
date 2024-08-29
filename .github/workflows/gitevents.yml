@@ -1,0 +1,25 @@
+name: GitEvents
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 16
+      - name: gitevents
+        uses: gitevents/action@v1.1.1
+        with:
+          enable-auto-invite: false
+          gitevents-app-id: ${{ secrets.GE_APP_ID }}
+          gitevents-app-private-key: ${{ secrets.GE_APP_PRIVATE_KEY }}
+          gitevents-app-installation-id: ${{ secrets.GE_APP_INSTALLATION_ID }}

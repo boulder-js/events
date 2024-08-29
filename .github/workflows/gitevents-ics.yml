@@ -1,0 +1,29 @@
+name: GitEvents ICS Generator
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - name: GitEvents ICS Generator
+        uses: gitevents/ics@v1.3.3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          default-timezone: 'America/Denver'
+          locations: 'locations.json'
+      - name: update .ics file
+        run: |
+          if [[ -n "$(git status --porcelain=v1 2>/dev/null)" ]]
+          then
+            git config user.name boulder-js
+            git config user.email info@boulderjs.org
+            git add events.ics
+            git commit events.ics -m "daily calendar update"
+            git push
+          fi

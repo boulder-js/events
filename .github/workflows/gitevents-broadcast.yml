@@ -1,0 +1,19 @@
+name: Create Events on Bluesky
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  prepare-microblog:
+    uses: ./.github/workflows/prepare-microblog.yml
+
+  bluesky-post:
+    if: contains (github.event.issue.labels.*.name, 'Approved :white_check_mark:')
+    needs: [prepare-microblog]
+    uses: gitevents/broadcast/.github/workflows/bluesky-event.yml@main
+    with:
+      post: ${{ needs.prepare-microblog.outputs.post }}
+    secrets:
+      BSKY_IDENTIFIER: ${{ secrets.BSKY_IDENTIFIER }}
+      BSKY_PASSWORD: ${{ secrets.BSKY_PASSWORD }}
