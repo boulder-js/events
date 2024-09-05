@@ -52,6 +52,14 @@ body:
       placeholder: '1h30m'
     validations:
       required: true
+  - type: input
+    id: location
+    attributes:
+      label: Locatiom
+      description: Location ID from https://github.com/boulder-js/events/blob/main/locations.json
+      placeholder: 'studio-35'
+    validations:
+      required: true
   - type: checkboxes
     id: code-of-conduct
     attributes:
