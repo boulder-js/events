@@ -21,6 +21,13 @@ body:
       description: A concise description
     validations:
       required: true
+  - type: textarea
+    id: sponsors
+    attributes:
+      label: Event Sponsor(s)
+      description: List of sponsors
+    validations:
+      required: false
   - type: input
     id: startDate
     attributes:
