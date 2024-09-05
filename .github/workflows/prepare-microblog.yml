@@ -23,7 +23,7 @@ jobs:
             const getIssueLink = issue => issue?.html_url
             const getTitle = issue => issue?.title
             const getContent = (title, author, link) =>
-              `New Event: ${title} by ${author}. More information & signup here: ${link}`
+              `New Event: ${title}. More information & signup here: ${link}`
 
             const issueLink = getIssueLink(issue)
             const author = getAuthor(issue)
