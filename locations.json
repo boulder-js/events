@@ -2,5 +2,13 @@
   {
     "id": "online",
     "name": "Online on Discord"
+  },
+  {
+    "id": "studio-35",
+    "name": "Studio 35",
+    "address": "1200 Pearl Street, 80302, Boulder, CO",
+    "link": "https://officepartnersonpearl.com/private-offices-in-a-diverse-business-community/",
+    "geo": [40.017855, -105.279674],
+    "what3words": "///riders.skips.arrive"
   }
 ]
