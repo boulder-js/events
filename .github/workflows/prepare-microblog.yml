@@ -23,7 +23,7 @@ jobs:
             const getIssueLink = issue => issue?.html_url
             const getTitle = issue => issue?.title
             const getContent = (title, author, link) =>
-              `New Event: ${title}. More information & signup here: ${link}`
+              `New #BoulderJS Event: ${title}. More information & signup here: ${link} #boulder #javascript #colorado`
 
             const issueLink = getIssueLink(issue)
             const author = getAuthor(issue)
