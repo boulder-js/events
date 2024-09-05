@@ -10,5 +10,13 @@
     "link": "https://officepartnersonpearl.com/private-offices-in-a-diverse-business-community/",
     "geo": [40.017855, -105.279674],
     "what3words": "///riders.skips.arrive"
+  },
+  {
+    "id": "creature-comforts",
+    "name": "Creature Comforts",
+    "address": "1647 Pearl St Unit 2, 80302, Boulder, CO",
+    "link": "creaturecomforts.cafe",
+    "geo": [40.019384, -105.273723],
+    "what3words": "///spike.ducks.mirror"
   }
 ]
