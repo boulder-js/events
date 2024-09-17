@@ -8,6 +8,7 @@ on:
 
 jobs:
   prepare:
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     outputs:
       post: ${{ steps.prepare.outputs.result }}
