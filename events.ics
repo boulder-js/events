@@ -5,14 +5,30 @@ PRODID:gitevents/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:8TgSXUvRrHDdhleCG5JrY
+UID:2iiZ57MuPIgIxQTdPkk-F
 SUMMARY:BoulderJS - 9/26
-DTSTAMP:20240927T011042Z
+DTSTAMP:20240928T010954Z
 DTSTART:20240927T000000Z
 DESCRIPTION:BoulderJS Talks & Networking every 3rd Thursday. This time with
 	:
 URL:https://github.com/boulder-js/events/issues/4
 LOCATION:studio-35
+STATUS:CONFIRMED
+CATEGORIES:Approved :white_check_mark:,Event :sparkles:
+ORGANIZER;CN="Patrick Heneise"
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:7aKelu1gUrUzSo7QL-p6X
+SUMMARY:Meet & Greet 10/5
+DTSTAMP:20240928T010954Z
+DTSTART:20240510T230000Z
+DESCRIPTION:Let's chat! I'm hosting a low-key event to get to know you all 
+	a little better. During our Meet and Greet\, we'll discuss things like how
+	 often we should meet and where. See you soon!\n\n[Join us on the #boulder
+	-js channel on Discord](https://coloradotech.community/)
+URL:https://github.com/boulder-js/events/issues/6
 STATUS:CONFIRMED
 CATEGORIES:Approved :white_check_mark:,Event :sparkles:
 ORGANIZER;CN="Patrick Heneise"
