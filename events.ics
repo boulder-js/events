@@ -5,9 +5,9 @@ PRODID:gitevents/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:WX4hr2K3-CTfojzt3kAmD
+UID:LSPKsk_9uOGR5wC-_tihL
 SUMMARY:BoulderJS - 9/26
-DTSTAMP:20241022T011140Z
+DTSTAMP:20241023T011021Z
 DTSTART:20240927T000000Z
 DESCRIPTION:BoulderJS Talks & Networking every 3rd Thursday. This time with
 	:
@@ -20,15 +20,31 @@ X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 DURATION:PT2H
 END:VEVENT
 BEGIN:VEVENT
-UID:MQB2Xjk_yvYVu40uxKLAf
+UID:Drr8mLohExp8EcWCQnQg0
 SUMMARY:Meet & Greet 10/8
-DTSTAMP:20241022T011140Z
+DTSTAMP:20241023T011021Z
 DTSTART:20241008T230000Z
 DESCRIPTION:Let's chat! I'm hosting a low-key event to get to know you all 
 	a little better. During our Meet and Greet\, we'll discuss things like how
 	 often we should meet and where. See you soon!\n\n[Join us on the #boulder
 	-js channel on Discord](https://coloradotech.community/)
 URL:https://github.com/boulder-js/events/issues/6
+STATUS:CONFIRMED
+CATEGORIES:Approved :white_check_mark:,Event :sparkles:
+ORGANIZER;CN="Patrick Heneise"
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+DURATION:PT2H
+END:VEVENT
+BEGIN:VEVENT
+UID:_H2dt4JRVPrYed-KAAA3v
+SUMMARY:Meet & Greet 11/12
+DTSTAMP:20241023T011021Z
+DTSTART:20241113T000000Z
+DESCRIPTION:Let's chat! I'm hosting a low-key event to get to know you all 
+	a little better. During our Meet and Greet\, we'll discuss things like how
+	 often we should meet and where. See you soon!\n\n[Join us on the #boulder
+	-js channel on Discord](https://coloradotech.community/)
+URL:https://github.com/boulder-js/events/issues/7
 STATUS:CONFIRMED
 CATEGORIES:Approved :white_check_mark:,Event :sparkles:
 ORGANIZER;CN="Patrick Heneise"
