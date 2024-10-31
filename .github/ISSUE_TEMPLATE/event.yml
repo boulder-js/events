@@ -55,7 +55,7 @@ body:
   - type: input
     id: location
     attributes:
-      label: Locatiom
+      label: Location
       description: Location ID from https://github.com/boulder-js/events/blob/main/locations.json
       placeholder: 'studio-35'
     validations:
