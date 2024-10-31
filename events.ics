@@ -5,9 +5,9 @@ PRODID:gitevents/ics
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:GkTVDvSvQhCkJn6G5xexe
+UID:-ZgzkHWIbCuZIRcghuuf2
 SUMMARY:BoulderJS - 9/26
-DTSTAMP:20241030T011144Z
+DTSTAMP:20241031T011210Z
 DTSTART:20240927T000000Z
 DESCRIPTION:BoulderJS Talks & Networking every 3rd Thursday. This time with
 	:
@@ -20,9 +20,9 @@ X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 DURATION:PT2H
 END:VEVENT
 BEGIN:VEVENT
-UID:FuAiP6T3kGgGMRNdXBs37
+UID:gJpr2Co2nHSeMmmke5e6N
 SUMMARY:Meet & Greet 10/8
-DTSTAMP:20241030T011144Z
+DTSTAMP:20241031T011210Z
 DTSTART:20241008T230000Z
 DESCRIPTION:Let's chat! I'm hosting a low-key event to get to know you all 
 	a little better. During our Meet and Greet\, we'll discuss things like how
@@ -36,9 +36,9 @@ X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 DURATION:PT2H
 END:VEVENT
 BEGIN:VEVENT
-UID:ZiAfdmHZVpcZ2RByZu0r8
+UID:vPEbjwYm3keUiuG0UzAZ_
 SUMMARY:Meet & Greet 11/12
-DTSTAMP:20241030T011144Z
+DTSTAMP:20241031T011210Z
 DTSTART:20241113T000000Z
 DESCRIPTION:Let's chat! I'm hosting a low-key event to get to know you all 
 	a little better. During our Meet and Greet\, we'll discuss things like how
