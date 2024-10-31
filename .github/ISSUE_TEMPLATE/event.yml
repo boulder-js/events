@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: talks
     attributes:
-      label: talks
+      label: Talks
       description: List of talks for this event
     validations:
       required: false
