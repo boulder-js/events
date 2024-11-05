@@ -18,5 +18,13 @@
     "link": "creaturecomforts.cafe",
     "geo": [40.019384, -105.273723],
     "what3words": "///spike.ducks.mirror"
+  },
+  {
+    "id": "september-school",
+    "name": "September School",
+    "address": "96 Arapahoe Avenue, 80302, Boulder, CO",
+    "link": "https://www.septemberschool.org/",
+    "geo": [40.012190, -105.298620],
+    "what3words": "///wanted.pinks.wakes"
   }
 ]
