@@ -2,8 +2,9 @@ name: GitEvents ICS Generator
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
+  # action is broken, needs to be fixed
+  # schedule:
+  #   - cron: '0 0 * * *'
 
 jobs:
   generate:
