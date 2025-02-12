@@ -27,4 +27,12 @@
     "geo": [40.012190, -105.298620],
     "what3words": "///wanted.pinks.wakes"
   }
+    {
+    "id": "galvanize",
+    "name": "Galvanize",
+    "address": "1023 Walnut St. Suite 100 Boulder, CO 80302",
+    "link": "https://boulderdowntown.com/go/galvanize-boulder",
+    "geo": [40.0166144, -105.2816619],
+    "what3words": "///almost.skirt.fuels"
+  }
 ]
