@@ -22,13 +22,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: talks
-    attributes:
-      label: Talks
-      description: List of talks for this event
-    validations:
-      required: false
-  - type: textarea
     id: sponsors
     attributes:
       label: Event Sponsor(s)
