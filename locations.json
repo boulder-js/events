@@ -34,5 +34,13 @@
     "link": "https://boulderdowntown.com/go/galvanize-boulder",
     "geo": [40.0166144, -105.2816619],
     "what3words": "///almost.skirt.fuels"
+  },
+  {
+    "id": "wild-provisions-brewery",
+    "name": "Wild Provisions Brewery",
+    "address": "4120 Kittredge Street, 80304, Boulder, CO",
+    "link": "https://www.wildprovisionsbrewery.com/",
+    "geo": [40.013850, -105.246850],
+    "what3words": "///eager.trains.reward"
   }
 ]
